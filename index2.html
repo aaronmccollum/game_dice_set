@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aaron's Game Dice</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+      
+      <body>
+        <h1 id="pageHeader">Aaron's Game Dice Set</h1>
+        <p id="headerIntro">A Dice Set for Dungeons & Dragons</p>
+        <div class="container">
+          <div class="center">
+            <button class="removeButton" value="delete" onclick="deleteValues()">Delete Values</button>
+          </div>
+        </div>
+
+        <div id="bodyDiv">
+
+          <div id="div1" class="sectionDiv">
+            <!--20 SIDED DICE-->
+            <section class="pageSection" id="twentySideDice">
+              <h3 class="sectionHeader">20-Sided Dice</h3>
+              <button class="diceButton" id="twentySidedDiceButton" value="roll" onclick="twentySideDiceRoll()">Roll!</button>
+              <div class="classResultDiv" id="twentySideDiceResult"></div>
+            </section>
+          </div>
+      
+            <!--12 SIDED DICE-->
+          <div id="div2" class="sectionDiv">
+            <section class="pageSection" id="twelveSideDice">
+              <h3 class="sectionHeader">12-Sided Dice</h3>
+              <button class="diceButton" id="twelveSidedDiceButton" value="roll" onclick="twelveSideDiceRoll()">Roll!</button>
+              <div class="classResultDiv" id="twelveSideDiceResult"></div>
+            </section>
+          </div>
+      
+            <!--10 SIDED DICE-->
+          <div id="div3" class="sectionDiv">
+            <section class="pageSection" id="tenSideDice">
+              <h3 class="sectionHeader">10-Sided Dice</h3>
+              <button class="diceButton" id="tenSidedDiceButton" value="roll" onclick="tenSideDiceRoll()">Roll!</button>
+              <div class="classResultDiv" id="tenSideDiceResult"></div>
+            </section>
+          </div>
+      
+          <div id="div4" class="sectionDiv">
+            <!--8 SIDED DICE-->
+            <section class="pageSection" id="eightSideDice">
+              <h3 class="sectionHeader">8-Sided Dice</h3>
+              <button class="diceButton" id="eightSidedDiceButton" value="roll" onclick="eightSideDiceRoll()">Roll!</button>
+              <div class="classResultDiv" id="eightSideDiceResult"></div>
+            </section>
+          </div>
+      
+          <div id="div5" class="sectionDiv">
+            <!--6 SIDED DICE-->
+            <section class="pageSection" id="sixSideDice">
+              <h3 class="sectionHeader">6-Sided Dice</h3>
+              <button class="diceButton" id="sixSidedDiceButton" value="roll" onclick="sixSideDiceRoll()">Roll!</button>
+              <div class="classResultDiv" id="sixSideDiceResult"></div>
+            </section>
+          </div>
+      
+          <div id="div6" class="sectionDiv">
+            <!--4 SIDED DICE-->
+            <section class="pageSection" id="fourSideDice">
+              <h3 class="sectionHeader">4-Sided Dice</h3>
+              <button class="diceButton" id="fourSidedDiceButton" value="roll" onclick="fourSideDiceRoll()">Roll!</button>
+              <div class="classResultDiv" id="fourSideDiceResult"></div>
+            </section>
+          </div>
+        </div>
+      </body>
+      
+      <footer>
+        <div id="footerDiv">
+          <p class="footerText">Version 1.1</p>
+          <p class="footerText">Created by Aaron McCollum</p>
+          <p class="footerText">Twitter @mccollumaarons</p>
+        </div>
+      </footer>
+</html>
