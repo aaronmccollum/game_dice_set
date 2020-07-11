@@ -1,0 +1,103 @@
+/* DESKTOP SETTINGS */
+
+/* Page Header Settings */
+#pageHeader {
+    font-family: arial;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  #headerIntro {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Page Body Settings */
+  #bodyDiv {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .sectionDiv {
+    padding: 20px;
+  }
+  
+  .sectionHeader {
+    font-family: arial;
+    font-size: 25px;
+  }
+  
+  .diceButton {
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .removeButton {
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  #twentySideDiceResult {
+    font-size: 25px;
+    font-family: arial;
+    background-color: #acc4f1;
+  }
+  
+  #twelveSideDiceResult {
+    font-size: 25px;
+    font-family: arial;
+    background-color: #acc4f1;
+  }
+  
+  #tenSideDiceResult {
+    font-size: 25px;
+    font-family: arial;
+    background-color: #acc4f1;
+  }
+  
+  #eightSideDiceResult {
+    font-size: 25px;
+    font-family: arial;
+    background-color: #acc4f1;
+  }
+  
+  #sixSideDiceResult {
+    font-size: 25px;
+    font-family: arial;
+    background-color: #acc4f1;
+  }
+  
+  #fourSideDiceResult {
+    font-size: 25px;
+    font-family: arial;
+    background-color: #acc4f1;
+  }
+  
+  /* FOOTER SETTINGS */
+  .footerText {
+    text-align: center;
+  }
+  
+  #footerDiv {
+    padding-top: 80px;
+  }
