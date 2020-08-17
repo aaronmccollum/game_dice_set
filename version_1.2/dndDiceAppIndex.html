@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DnD Game Dice</title>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="mainPageStyle.css">
+        <script src="mainDicePageScript.js"></script>
+    </head>
+
+    <body>
+        <div class="headerSection">
+            <div class="headerPageTitle">
+                <h1>Dungeons & Dragons Game Dice</h1>
+            </div>
+            <div class="headerParagraph">
+                <p>A free application to simulate a set of dice for Dungeons & Dragons and other similar games.</p>
+            </div>
+        </div>
+
+        <div class="deleteValueDiv">
+            <div class="deleteValueButton">
+                <button class="diceButton" id="deleteButton" value="delete" onclick="deleteValues()">Delete Rolls</button>
+            </div>
+        </div>
+
+        <div class="bodyDiv">
+
+            <div class="diceSection">
+                <div class="row1">
+                    <div class="specificDice" id="d20">
+                        <h3 class="diceSectionHeader" id="d20Header">D20</h3>
+                        <button class="diceButton" id="d20Button" value="roll" onclick="twentySideDiceRoll()">Roll!</button>
+                    </div>
+                    <div class="specificDice" id="d12">
+                        <h3 class="diceSectionHeader" id="d12Header">D12</h3>
+                        <button class="diceButton" id="d12Button" value="roll" onclick="twelveSideDiceRoll()">Roll!</button>
+                    </div>
+                    <div class="specificDice" id="d10">
+                        <h3 class="diceSectionHeader" id="d10Header">D10</h3>
+                        <button class="diceButton" id="d10Button" value="roll" onclick="tenSideDiceRoll()">Roll!</button>
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="specificDice" id="d8">
+                        <h3 class="diceSectionHeader" id="d8Header">D8</h3>
+                        <button class="diceButton" id="d8Button" value="roll" onclick="eightSideDiceRoll()">Roll!</button>
+                    </div>
+                    <div class="specificDice" id="d6">
+                        <h3 class="diceSectionHeader" id="d6Header">D6</h3>
+                        <button class="diceButton" id="d6Button" value="roll" onclick="sixSideDiceRoll()">Roll!</button>
+                    </div>
+                    <div class="specificDice" id="d4">
+                        <h3 class="diceSectionHeader" id="d4Header">D4</h3>
+                        <button class="diceButton" id="d4Button" value="roll" onclick="fourSideDiceRoll()">Roll!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="diceResultDiv">
+                <div class="diceResultLocation"></div>
+            </div>
+        
+        </div>
+
+        <footer>
+            <div class="pageFooter">
+                <div class="footerVersion">
+                    <p class="footerText">Version 1.2</p>
+                </div>
+                <div class="footerAttribute">
+                    <p class="footerText">Created by Aaron McCollum</p>
+                </div>
+                <div class="footerTwitter">
+                    <p class="footerText">Twitter: @mccollumaarons</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
